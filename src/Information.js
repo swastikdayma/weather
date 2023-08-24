@@ -28,7 +28,7 @@ function Information({result}) {
         <Row><Dehaze/> Humidity: {result.weather[0].main}  </Row>
         <Row> <Cloud/> Cloud: {result.clouds.all }% </Row>
     </Box>
-    : <BlankMessage>Please Enter The values To Chech Weather</BlankMessage>
+    : <BlankMessage>Please Enter The values To Check Weather</BlankMessage>
       )
 }
 
